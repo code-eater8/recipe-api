@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-MAINTAINER Hanaa App Developer
+MAINTAINER HanaaDev
 
 ENV PYTHONBUFFERED 1
  
