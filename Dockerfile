@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-MAINTAINER HanaaAppDeveloper
+MAINTAINER Hanaa App Developer
 
 ENV PYTHONBUFFERED 1
  
@@ -10,5 +10,5 @@ ENV PYTHONBUFFERED 1
  WORKDIR /app
  ADD ./app /app
 
- RUN command adduser -D user
+ RUN adduser -D user
  USER user
